@@ -1,4 +1,5 @@
-
+/.lock-waf
+/.waf
 /Tools/autotest/aircraft/Rascal/reset.xml
 /Tools/autotest/ch7_mission.txt
 /Tools/autotest/param_metadata/Parameters.html
