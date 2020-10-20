@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AP_Proximity">
+      <UniqueIdentifier>{ae685a4c-6c8a-422e-88c2-6ea69680dea5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libraries\AP_Proximity\AP_Proximity.cpp">
+      <Filter>AP_Proximity</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_Proximity\AP_Proximity_RPLidarA2.cpp">
+      <Filter>AP_Proximity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\AP_Proximity\AP_Proximity.h">
+      <Filter>AP_Proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_Proximity\AP_Proximity_RPLidarA2.h">
+      <Filter>AP_Proximity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
