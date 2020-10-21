@@ -290,7 +290,7 @@ void AP_Proximity::detect_instance(uint8_t instance)
         break;
 //  A2 and S1 uses the same protocol, only differ in reset.
     case Type::RPLidarA2:
-    case Type::RPLidarA2:
+    case Type::RPLidarS1:
         if (AP_Proximity_RPLidarA2::detect()) {
             state[instance].instance = instance;
             drivers[instance] = new AP_Proximity_RPLidarA2(*this, state[instance]);
